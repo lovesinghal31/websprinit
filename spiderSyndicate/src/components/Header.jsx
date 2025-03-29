@@ -39,26 +39,20 @@ function Header() {
                 <Link to={'eventgallery'}>Events Gallery</Link>
               </li>
               <li>
-                <a>Events Gallery</a>
-              </li>
-              <li>
-                <a>Meet US</a>
-              </li>
-              <li>
-                <a>Live Events</a>
+                <Link to={'mentor'}>Mentor</Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="navbar-center">
           <a className="btn btn-ghost text-xl">
-            <img className="w-12 mix-blend-color" src="https://th.bing.com/th/id/OIP.OjumLBFieAdP5YO_e6N7wwHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="gdg-log-ietdavv" />
+            <img className="w-12" src="https://th.bing.com/th/id/OIP.OjumLBFieAdP5YO_e6N7wwHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="gdg-log-ietdavv" />
             GDGOC IET-DAVV
           </a>
         </div>
         <div className="navbar-end">
           <a href="https://gdg.community.dev/" target="_blank">
-            <img className="w-3xs mix-blend-color" src={gdgLogo} alt="" />
+            <img className="w-3xs" src={gdgLogo} alt="" />
           </a>
         </div>
       </div>
