@@ -3,7 +3,7 @@ import gdgLogo from "../assets/gdg-community.png"
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100 sticky top-0">
+      <div className="navbar bg-base-100 nbg sticky top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <div
