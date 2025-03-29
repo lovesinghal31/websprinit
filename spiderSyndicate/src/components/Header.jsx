@@ -3,7 +3,7 @@ import gdgLogo from "../assets/gdg-community.png"
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100 nbg sticky top-0">
+      <div className="navbar bg-base-100 sticky top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -57,7 +57,7 @@ function Header() {
         </div>
         <div className="navbar-end">
           <a href="https://gdg.community.dev/" target="_blank">
-            <img className="w-3xs" src={gdgLogo} alt="" />
+            <img className="w-3xs mix-blend-color" src={gdgLogo} alt="" />
           </a>
         </div>
       </div>

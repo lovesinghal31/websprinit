@@ -5,8 +5,8 @@ function Footer() {
   return (
     <>
       <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
-        <aside className="flex flex-col justify-center items-center">
-            <div>
+        <aside className="flex flex-col justify-center items-center w-full">
+            <div className="w-full">
                 <BasicGrid />
             </div>
             <div className="flex justify-center items-center">
