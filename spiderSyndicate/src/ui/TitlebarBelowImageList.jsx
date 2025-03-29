@@ -27,19 +27,19 @@ export default function TitlebarBelowImageList() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
-    author: '@bkristastucchio',
+    img: 'https://drive.google.com/file/d/1xM6Mhg1FDmje5G_h78Ic7lfUHEH3-xxa/view?usp=sharing',
+    title: 'Compose Camp',
+    author: ' 3 Day  workshope about the Jetpack Compose(Andorid framework) by Google.',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
-    author: '@rollelflex_graphy726',
+    img: 'https://drive.google.com/file/d/13NyTGN9NE52Qt3pW5XAsLoFzJaPfOQV0/view?usp=sharing',
+    title: 'Intro to Machine Learning',
+    author: 'Explore ML fundamentals and network',
   },
   {
     img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
-    author: '@helloimnik',
+    title: 'Cod-A-thon',
+    author: 'competitive programming competition',
   },
   {
     img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
