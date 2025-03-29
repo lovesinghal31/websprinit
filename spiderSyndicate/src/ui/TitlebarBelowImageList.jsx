@@ -49,54 +49,39 @@ const itemData = [
     author: 'tech session in M Block Audi',
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
+    img: './src/assets/370210331_785735253305440_4044220795915801_n.webp',
     title: 'TechHunterssss',
     author: 'techXchane-meetup',
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+    img: './src/assets/371418579_1322772091960811_4185986814030058177_n (1).jpg',
     title: 'Google Cloud Facilitator Program 2023',
     author: '',
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
+    img: './src/assets/Snapins.ai_398806538_877804683700843_3179143676200567401_n_1080.jpg',
     title: 'Code Quest',
     author: 'Hackethon on HackeRank',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
+    img: './src/assets/386387457_1443136846249221_8005438878321973709_n.webp',
     title: 'Hacktober-fest',
     author: 'for Open Source Contributions',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
+    img: './src/assets/378076462_610241454634021_1353493218009976438_n.webp',
     title: 'Invento',
     author: 'Techfest ',
   },
   {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'hack Vento ',
-    author: 'A 2 day event of 12 hours coding marathon at  IET Campus',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
+    img: './src/assets/Snapins.ai_395006795_151011091428240_7330992774361628503_n_1080.jpg',
     title: 'Opensource Workshop ',
     author: '',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Devfest Indore 23',
-    author: '',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: './src/assets/Snapins.ai_400191592_7067596153262570_3167590708174003889_n_1080.jpg',
     title: 'CODE SERIES',
     author: '',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Moi Blockchain DevX Bootcamp',
-    author: 'Blockchain & Peer to Peer (P2P)',
   },
   {
     img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
@@ -109,33 +94,19 @@ const itemData = [
     author: 'Felicitation Ceremony in B Block room 101',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'HackHive partnered with techhunters',
+    img: '',
+    title: './src/assets/Snapins.ai_429935470_902077235174999_3964520131432204679_n_1080.jpg',
     author: 'A 2 day event of 36 hours in person Hackathon',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: './src/assets/Snapins.ai_434005459_2833345210139113_8673731926301656614_n_1080.jpg',
     title: 'UI/UX Unleash',
     author: '',
   },
+ 
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Visit to WTM Indore',
-    author: 'Visit to WTM Indore',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: 'evfest Indore 23',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: './src/assets/371418579_1322772091960811_4185986814030058177_n (2).jpg',
     title: ' Gen AI Study Jams',
     author: '28 Days WorkShope on Gen AI',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: 'evfest Indore 23',
   },
 ];
