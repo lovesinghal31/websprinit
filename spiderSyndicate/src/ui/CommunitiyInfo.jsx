@@ -21,6 +21,25 @@ function CommunitiyInfo() {
             <div className='w-full'>
                 <img className='w-full' src="https://gdsc.ietdavv.edu.in/_next/image?url=%2Ffelicitation-group-crop.jpg&w=1080&q=75" alt="com" />
             </div>
+            <div>
+                <div>
+                    <h2>Our Mission</h2>
+                    <p>We're built different, so we build different. Our
+                        mission is to empower future developers by
+                        bringing students passionate about technology
+                        together and helping them grow their skills in tech,
+                        regardless of background.</p>
+                </div>
+                <div>
+                    <h2>Our Values</h2>
+                    <p>We believe you don't need to code to be a
+                    developer. We develop both products and people
+                    by making Google technologies accessible to
+                    everyone through workshops, events, and more.
+                    Dreamers, problem solvers, and tinkerers: That's
+                    who we are.</p>
+                </div>
+            </div>
         </>
     )
 }
