@@ -1,13 +1,18 @@
 import React from 'react'
 import Card from '../ui/Card'
+import KanishkaTiwari from '../assets/KanishkaTiwari.png'
+import MustafaAzad from '../assets/MustafaAzad.png'
+import DeepakKumarshah from '../assets/DeepakKumarshah.jpg'
 
 function Mentor() {
   return (
     <>
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='flex justify-center'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center'>
         {teamData.map((details,index)=>(
           <Card key={index} {...details} />
         ))}
+    </div>
     </div>
     </>
   )
@@ -23,21 +28,21 @@ const teamData = [
         linkedIN: "",
     },
     {
-        imgLink: 'https://1drv.ms/i/s!Ar071Tw1od3SxT4B_5MxRKLowACD?e=GiuMsh',
-        memberName: "Rashmi Jajodia" ,
-        role: "Social Media Lead", 
-        linkedIN: "https://www.linkedin.com/in/rashmi-jajodia-b374bb256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        imgLink: KanishkaTiwari,
+        memberName: "Kanishk Tiwari" ,
+        role: "Full Stack and UI Lead", 
+        linkedIN: "https://www.linkedin.com/in/whykanishk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
-        imgLink: 'https://drive.google.com/file/d/1UTxLhVaiZdGfu2IAaL-u-bBbgz-XUVje/view?usp=drivesdk',
-        memberName: "Harsh Hingve" ,
-        role: "Data Science & Outreach Lead", 
+        imgLink: MustafaAzad,
+        memberName: "Mustafa Azad" ,
+        role: "Cloud Lead", 
         linkedIN: "https://www.linkedin.com/in/harsh-hingve-a9517b1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app%0a",
     },
     {
-        imgLink: 'https://res.cloudinary.com/dhwbs4kk2/image/upload/v1707244174/vjsirimg_amfjkz.jpg',
-        memberName: "Prateek Tiwari" ,
-        role: "GDG F", 
+        imgLink: DeepakKumarshah,
+        memberName: "Deepak Kumar Shah" ,
+        role: "AppDev and Events Lead", 
         linkedIN: "",
     },
 ]
