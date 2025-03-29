@@ -83,49 +83,20 @@ const itemData = [
     title: 'CODE SERIES',
     author: '',
   },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Moi Blockchain DevX Bootcamp',
-    author: 'Blockchain & Peer to Peer (P2P)',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Introduction to Flutter',
-    author: 'fundamentals of flutter',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Google Cloud Study Jam Felicitation Ceremony',
-    author: 'Felicitation Ceremony in B Block room 101',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'HackHive partnered with techhunters',
+ {
+    img: '',
+    title: './src/assets/Snapins.ai_429935470_902077235174999_3964520131432204679_n_1080.jpg',
     author: 'A 2 day event of 36 hours in person Hackathon',
   },
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: './src/assets/Snapins.ai_434005459_2833345210139113_8673731926301656614_n_1080.jpg',
     title: 'UI/UX Unleash',
     author: '',
   },
+ 
   {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Visit to WTM Indore',
-    author: 'Visit to WTM Indore',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: 'evfest Indore 23',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
+    img: './src/assets/371418579_1322772091960811_4185986814030058177_n (2).jpg',
     title: ' Gen AI Study Jams',
     author: '28 Days WorkShope on Gen AI',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: 'evfest Indore 23',
   },
 ];
