@@ -18,6 +18,9 @@ function CommunitiyInfo() {
             <div className='text-center font-bold'>
                 <span className='text-3xl'>We Develop Communities</span>
             </div>
+            <div className='w-full'>
+                <img className='w-full' src="https://gdsc.ietdavv.edu.in/_next/image?url=%2Ffelicitation-group-crop.jpg&w=1080&q=75" alt="com" />
+            </div>
         </>
     )
 }
