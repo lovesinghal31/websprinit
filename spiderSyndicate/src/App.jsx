@@ -5,6 +5,7 @@ import Container from '@mui/material/Container';
 import Footer from "./components/Footer";
 import Layout from './Layout';
 import Home from './components/Home';
+import EventsGallery from './components/EventsGallery';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     createRoutesFromElements(
       <Route path='/' element={<Layout/>}>
         <Route path='' element={<Home/>} />
+        <Route path='about' element={<EventsGallery/>} />
       </Route>
     )
   )
