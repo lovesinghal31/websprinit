@@ -32,7 +32,7 @@ function CommunitiyInfo() {
                 </div>
                 <div>
                     <h2>Our Values</h2>
-                    <pWe believe you don't need to code to be a
+                    <p>We believe you don't need to code to be a
                     developer. We develop both products and people
                     by making Google technologies accessible to
                     everyone through workshops, events, and more.
