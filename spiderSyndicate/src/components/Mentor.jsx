@@ -4,9 +4,11 @@ import Card from '../ui/Card'
 function Mentor() {
   return (
     <>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         {teamData.map((details,index)=>(
-        <Card key={index} {...details} />
-      ))}
+          <Card key={index} {...details} />
+        ))}
+    </div>
     </>
   )
 }
