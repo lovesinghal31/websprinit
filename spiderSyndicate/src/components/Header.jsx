@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className="navbar bg-base-100 sticky top-0 z-40 font-bold">
         <div className="navbar-start">
-          <div className="dropdown text-red-500">
+          <div className="dropdown">
             <div
               tabIndex={0}
               role="button"
@@ -30,13 +30,13 @@ function Header() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow rounded-2xl"
+              className="menu menu-sm dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow rounded-2xl"
             >
               <li>
                 <Link to={''}>Home</Link>
               </li>
               <li>
-                <Link to={'eventgallery'}>About</Link>
+                <Link to={'eventgallery'}>Events Gallery</Link>
               </li>
               <li>
                 <a>Events Gallery</a>
