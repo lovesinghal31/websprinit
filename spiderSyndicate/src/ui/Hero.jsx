@@ -13,15 +13,15 @@ function Hero() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Developer's Student Club
+            <h1 className="mb-5 text-5xl font-bold">Developer's Developers Group On Campus
             IET-DAVV, Indore</h1>
-            <p className="mb-5">GDSC IET DAVV is a part of dynamic community where students from various
+            <p className="mb-5">GDG OC IET DAVV is a part of dynamic community where students from various
 backgrounds come together to explore the latest in technology, learn about
-Google's tools and platforms, and collaborate on innovative projects. GDSC is a
+Google's tools and platforms, and collaborate on innovative projects. GDG oc is a
 place to grow as a developer, starting from a beginner developer to an advanced
 developer. It's not always about "programming" but also about connecting, learning
 together and growing together.</p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Event Gallery</button>{/*margin*/}<button className="btn btn-primary">Our Collab</button>
           </div>
         </div>
       </div>
