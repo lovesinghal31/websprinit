@@ -5,7 +5,8 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 export default function TitlebarBelowImageList() {
   return (
-    <ImageList>
+    // <ImageList >
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
       {itemData.map((item) => (
         <ImageListItem key={item.img} className='bg-gray-300'>
           <img
@@ -21,7 +22,8 @@ export default function TitlebarBelowImageList() {
           />
         </ImageListItem>
       ))}
-    </ImageList>
+      </div>
+    // </ImageList>
   );
 }
 

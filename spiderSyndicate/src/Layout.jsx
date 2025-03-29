@@ -7,11 +7,14 @@ import { Container } from '@mui/material'
 function Layout() {
   return (
     <>
-      <Container>
+      {/* <Container> */}
+      <div className='mx-3'>
+
         <Header />
         <Outlet />
         <Footer />
-      </Container>
+      </div>
+      {/* </Container> */}
     </>
   )
 }

@@ -1,11 +1,12 @@
 import React from "react";
 import gdgLogo from "../assets/gdg-community.png"
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100 sticky top-0">
+      <div className="navbar bg-base-100 sticky top-0 z-40 font-bold">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown text-red-500">
             <div
               tabIndex={0}
               role="button"
@@ -32,10 +33,10 @@ function Header() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow rounded-2xl"
             >
               <li>
-                <a>Home</a>
+                <Link to={''}>Home</Link>
               </li>
               <li>
-                <a>Our Guide's</a>
+                <Link to={'eventgallery'}>About</Link>
               </li>
               <li>
                 <a>Events Gallery</a>

@@ -4,7 +4,7 @@ import BasicGrid from "../ui/BasicGrid";
 function Footer() {
   return (
     <>
-      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content mt-5 p-4">
         <aside className="flex flex-col justify-center items-center w-full">
             <div className="w-full">
                 <BasicGrid />

@@ -13,7 +13,7 @@ function App() {
     createRoutesFromElements(
       <Route path='/' element={<Layout/>}>
         <Route path='' element={<Home/>} />
-        <Route path='about' element={<EventsGallery/>} />
+        <Route path='eventgallery' element={<EventsGallery/>} />
       </Route>
     )
   )

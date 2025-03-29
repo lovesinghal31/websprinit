@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -23,7 +24,7 @@ Google's tools and platforms, and collaborate on innovative projects. GDG oc is 
 place to grow as a developer, starting from a beginner developer to an advanced
 developer. It's not always about "programming" but also about connecting, learning
 together and growing together.</p>
-            <button className="btn btn-primary m-2 rounded-2xl">Event Gallery</button>{/*margin*/}<button className="btn btn-primary m-2 rounded-2xl ">Our Collab</button>
+            <button className="btn btn-primary m-2 rounded-2xl"><Link to={'eventgallery'}>Event Gallery</Link></button>{/*margin*/}<button className="btn btn-primary m-2 rounded-2xl ">Our Collab</button>
           </div>
         </div>
       </div>
