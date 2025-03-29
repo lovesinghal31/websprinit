@@ -3,7 +3,7 @@ import gdgLogo from "../assets/gdg-community.png"
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 sticky top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -52,7 +52,7 @@ function Header() {
         <div className="navbar-center">
           <a className="btn btn-ghost text-xl">
             <img className="w-12 mix-blend-color" src="https://th.bing.com/th/id/OIP.OjumLBFieAdP5YO_e6N7wwHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="gdg-log-ietdavv" />
-            GDGOC,IET-DAVV
+            GDGOC IET-DAVV
           </a>
         </div>
         <div className="navbar-end">

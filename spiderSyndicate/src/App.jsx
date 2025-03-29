@@ -1,6 +1,7 @@
 import { CiMenuFries } from "react-icons/ci";
 import Header from "./components/Header";
 import Container from '@mui/material/Container';
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Container>
         <Header/>
+        <Footer/>
       </Container>
       {/* <CiMenuFries />
       <h1 className="text-2xl text-center">Hello World!</h1> */}
