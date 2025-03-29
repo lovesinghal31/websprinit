@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Layout from './Layout';
 import Home from './components/Home';
 import EventsGallery from './components/EventsGallery';
+import Mentor from './components/Mentor';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Route path='/' element={<Layout/>}>
         <Route path='' element={<Home/>} />
         <Route path='eventgallery' element={<EventsGallery/>} />
+        <Route path='mentor' element={<Mentor/>} />
       </Route>
     )
   )

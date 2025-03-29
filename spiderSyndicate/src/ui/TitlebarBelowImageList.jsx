@@ -29,12 +29,12 @@ export default function TitlebarBelowImageList() {
 
 const itemData = [
   {
-    img: 'https://drive.google.com/file/d/1xM6Mhg1FDmje5G_h78Ic7lfUHEH3-xxa/view?usp=sharing',
+    img: 'https://drive.google.com/uc?export=view&id=1xM6Mhg1FDmje5G_h78Ic7lfUHEH3-xxa',
     title: 'Compose Camp',
     author: ' 3 Day  workshope about the Jetpack Compose(Andorid framework) by Google.',
   },
   {
-    img: 'https://drive.google.com/file/d/13NyTGN9NE52Qt3pW5XAsLoFzJaPfOQV0/view?usp=sharing',
+    img: 'https://drive.google.com/uc?export=view&id=13NyTGN9NE52Qt3pW5XAsLoFzJaPfOQV0',
     title: 'Intro to Machine Learning',
     author: 'Explore ML fundamentals and network',
   },
